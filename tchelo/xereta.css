@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-image: url(./img/fundoxereta.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.cabeca{
+    height: 60px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.menu{
+    color: #000000;
+}
+
+.corpo{
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.things{
+    font-size: 40px;
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: rgb(220, 147, 13);
+    color: rgb(255, 255, 255);
+    transform: translate(-220px);
+    width: 200px;
+    text-align: right;
+}
+
+.refrix{
+    height: 60px;
+}
+
+.rodape{
+    height: 60px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.garrafa{
+    height: 85vh;
+    position: absolute;
+}

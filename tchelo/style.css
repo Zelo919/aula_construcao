@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background: linear-gradient(#cf2425 0%, #DA6062 50%, #cf2425 100%);
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.cabeca{
+    height: 60px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.menu{
+    color: white;
+}
+
+.corpo{
+    flex-grow: 1;
+    background-image: url(./img/coca-cola-background.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.things{
+    font-size: 40px;
+    color: white;
+    transform: translate(-220px);
+    width: 200px;
+    text-align: right;
+}
+
+.rodape{
+    height: 60px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.garrafa{
+    height: 85vh;
+    position: absolute;
+}
